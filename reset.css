@@ -1,0 +1,975 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+ 
+li {
+	list-style: none;
+}
+
+#흑서울{
+	z-index: 4;
+}
+#문화img{
+	z-index: 4;
+}
+#교육img{
+	z-index: 4;
+}
+#병원img{
+	z-index: 4;
+}
+#기업img{
+	z-index: 4;
+}
+#bg{
+	z-index : 4;
+}
+
+#logo{
+	z-index: 4;
+	position: absolute;
+	width: 109px;
+	height: 59px;
+	object-fit: contain;
+	top: 45px;
+	left: 74px;
+	border: 0;
+	outline: 0;
+}
+/*---------인천----------------------------*/
+#btn_인천문화{
+	top: 410px;
+	left: 420px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_인천문화1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_인천문화2{
+	display : block;
+	top: 135px;
+	left: 809px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+#btn_인천교육{
+	top: 575px;
+	left: 775px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_인천교육1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_인천교육2{
+	display : block;
+	top: 131.5px;
+	left: 438px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_인천기업{
+	top: 325px;
+	left: 717px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_인천기업1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_인천기업2{
+	display : block;
+	top: 70.5px;
+	left: 632.5px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_인천의료{
+	top: 430px;
+	left: 500px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_인천의료1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_인천의료2{
+	display : block;
+	top: 130px;
+	left: 628px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+/*---------서울----------------------------*/
+#btn_의료{
+	top: 260px;
+	left: 330px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_의료1{
+	display : block;
+	top: 338.5px;
+	left: 500px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_의료2{
+	display : block;
+	top: 130px;
+	left: 338.25px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_교육{
+	top: 200px;
+	left: 560px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_교육1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_교육2{
+	display : block;
+	top: 193px;
+	left: 538px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_문화{
+	top: 228px;
+	left: 720px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_문화1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_문화2{
+	display : block;
+	top: 270px;
+	left: 928.5px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_기업{
+	top: 340px;
+	left: 755px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_기업1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_기업2{
+	display : block;
+	top: 114px;
+	left: 732.38px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#container_의료 {
+    position: absolute;
+	z-index: 7;
+	cursor: pointer;
+}
+
+/*---------대전----------------------------*/
+#btn_대전문화{
+	top: 305px;
+	left: 984px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대전문화1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대전문화2{
+	display : block;
+	top: 170px;
+	left: 597px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+#btn_대전교육{
+	top: 310px;
+	left: 475px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대전교육1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대전교육2{
+	display : block;
+	top: 80px;
+	left: 565px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_대전기업{
+	top: 405px;
+	left: 784px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대전기업1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대전기업2{
+	display : block;
+	top: 120.3px;
+	left: 790px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_대전의료{
+	top: 515px;
+	left: 1320px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대전의료1{
+	display : block;
+	top: 338.5px;
+	left: 623px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대전의료2{
+	display : block;
+	top: 140px;
+	left: 1118px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+/*---------대구----------------------------*/
+#btn_대구문화{
+	top: 560px;
+	left: 384px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대구문화1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대구문화2{
+	display : block;
+	top: 320px;
+	left: 597px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+#btn_대구교육{
+	top: 626px;
+	left: 960px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대구교육1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대구교육2{
+	display : block;
+	top: 260px;
+	left: 1121.5px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_대구기업{
+	top: 520px;
+	left: 195px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대구기업1{
+	display : block;
+	top: 338.5px;
+	left: 323.5px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대구기업2{
+	display : block;
+	top: 82px;
+	left: 428.5px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+
+#btn_대구의료{
+	top: 516px;
+	left: 1348px;
+	width: 15px;
+	height: 15px;
+	/*object-fit: contain;*/
+}
+#btn_대구의료1{
+	display : block;
+	top: 338.5px;
+	left: 623px;
+	width: 21.5px;
+	height: auto;
+	/*object-fit: contain;*/
+}
+#btn_대구의료2{
+	display : block;
+	top: 152px;
+	left: 1167px;
+	width: 5px;
+	height: 300px;
+	/*object-fit: contain;*/
+}
+#container_교육 {
+    position: absolute;
+	z-index: 7;
+	cursor: pointer;
+}
+
+#container_문화 {
+    position: absolute;
+	z-index: 7;
+	cursor: pointer;
+}
+
+#container_기업 {
+    position: absolute;
+	z-index: 7;
+	cursor: pointer;
+}
+
+/*글자*/
+#container2 {
+	float: left;
+    position: absolute;
+    top: 55px;
+	left: 1170px;
+	z-index: 6;
+	cursor: pointer;
+}
+
+#문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+
+#교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+
+
+#기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------인천-------------------------*/
+#인천문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#인천문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#인천교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#인천교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#인천병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#인천병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#인천기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#인천기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------대전-------------------------*/
+#대전문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#대전문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#대전교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#대전교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#대전병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#대전병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#대전기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#대전기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------대구-------------------------*/
+#대구문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#대구문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#대구교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#대구교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#대구병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#대구병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#대구기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#대구기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------울산-------------------------*/
+#울산문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#울산문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#울산교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#울산교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#울산병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#울산병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#울산기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#울산기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------부산-------------------------*/
+#부산문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#부산문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#부산교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#부산교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#부산병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#부산병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#부산기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#부산기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
+/*--------------------광주-------------------------*/
+#광주문화 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	z-index:5;
+}
+#광주문화1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	color: rgb(88, 42, 255);
+	z-index: 6;
+}
+#광주교육 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	z-index:5;
+}
+#광주교육1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 84px;
+	color: rgb(255, 187, 0);
+	z-index: 6;
+}
+
+#광주병원 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 255px;
+	z-index:5;
+}
+#광주병원1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+	top: 0;
+	left: 255px;
+	color: rgb(0, 184, 15);
+	z-index: 6;
+}
+#광주기업 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	z-index:5;
+}
+#광주기업1 {
+	width: 100px;
+	height: 10px;
+    position: absolute;
+    top: 0;
+	left: 169px;
+	color: rgb(0, 68, 255);
+	z-index: 6;
+}
